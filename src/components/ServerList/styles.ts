@@ -15,8 +15,18 @@ export const Container = styled.div`
     overflow-y:scroll;
 
     
-    ::-webkit-scrollbar {
-        display:none;
+    ::-webkit-scrollbar{
+        width:4px;
+    }
+
+
+    ::-webkit-scrollbar-thumb{
+        background-color:var(--symbol);
+        border-radius:4px;
+    }
+
+    ::-webkit-scrollbar-track{
+        background-color:var(--tertiary);
     }
 
 

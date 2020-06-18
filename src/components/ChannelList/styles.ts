@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { Add } from 'styled-icons/material'
-import{ Hashtag } from 'styled-icons/heroicons-outline'
 
 
 

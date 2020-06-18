@@ -23,6 +23,8 @@ const ServerList: React.FC = () => {
         <ServerButton />
         <ServerButton hasNotifications/>
         <ServerButton />   
+        <ServerButton />   
+        <ServerButton />   
     </Container>
   )
 }
